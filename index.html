@@ -1,16 +1,71 @@
 <html>
     <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+        <title>module2-solution</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            h1{
+                text-align: center;
+            }
+            #smak{
+                border: solid black 2px;
+                margin: 20px;
+                padding-right: 0px;
+                background-color: gray;
+            }
+            #chicken{
+                background-color: rgb(238, 105, 71);
+            }
+            #beef{
+                color: white;
+                background-color: rgb(236, 52, 52);
+            }
+            #sushi{
+                background-color: rgb(226, 226, 21);
+            }
+            h4{                
+                border-bottom: solid black 2px;
+                /* border-right: solid black 2px;  */
+                border-left: solid black 2px;
+                width: 130px;
+                float: right;
+                text-align: center;
+            }
+            #ams{
+                padding-top: 40px;
+            }
+        </style>
     </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+    <body class="container-fluid">
+        <h1>Our Menu</h1>
+        <div class="row">
+            <div class="col-md col-lg col-xl" id="smak">
+                <div><h4 id="chicken">Chicken</h4></div>
+                <p id="ams">lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. ut enim ad 
+                    minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-md col-lg col-xl" id="smak">
+                <div><h4 id="beef">Beef</h4></div>
+                <p id="ams">lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. ut enim ad 
+                    minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-lg col-xl" id="smak">
+                <div><h4 id="sushi">Sushi</h4></div>
+                <p id="ams">lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. ut enim ad 
+                    minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
     </body>
 </html>
